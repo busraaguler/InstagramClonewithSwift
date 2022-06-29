@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		343D4D1A285A0096004285FA /* mona lisa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 343D4D19285A0096004285FA /* mona lisa.jpeg */; };
+		343D4D1C285A0301004285FA /* tapselect.png in Resources */ = {isa = PBXBuildFile; fileRef = 343D4D1B285A0301004285FA /* tapselect.png */; };
+		346C7B5C285B01C10071AD5F /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C7B5B285B01C10071AD5F /* FeedCell.swift */; };
+		346C7B5E285B3B780071AD5F /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C7B5D285B3B780071AD5F /* heart.png */; };
+		34A900AC2859C0B000F99F0E /* instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A900AB2859C0B000F99F0E /* instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png */; };
+		34A900AE2859C7D500F99F0E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A900AD2859C7D500F99F0E /* FeedViewController.swift */; };
+		34A900B02859C7E700F99F0E /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A900AF2859C7E700F99F0E /* UploadViewController.swift */; };
+		34A900B22859C80500F99F0E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A900B12859C80500F99F0E /* SettingsViewController.swift */; };
+		34A900B42859DECD00F99F0E /* shooting-star-in-night-sky-iphone-12-pro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34A900B32859DECD00F99F0E /* shooting-star-in-night-sky-iphone-12-pro.jpeg */; };
+		34A900B62859DF6200F99F0E /* galaxy-wallpaper.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34A900B52859DF6200F99F0E /* galaxy-wallpaper.jpeg */; };
+		34A900B82859E02000F99F0E /* 9b0ce4be26e366849900eb6cb0f024b6.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A900B72859E02000F99F0E /* 9b0ce4be26e366849900eb6cb0f024b6.png */; };
+		34A900BA2859E07800F99F0E /* tumblr_p0v9jbMDUV1u93qk8o1_1280.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34A900B92859E07800F99F0E /* tumblr_p0v9jbMDUV1u93qk8o1_1280.jpeg */; };
+		34A900BC2859E0E500F99F0E /* 4k-iphone android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-u0pjf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34A900BB2859E0E500F99F0E /* 4k-iphone android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-u0pjf.jpeg */; };
+		34A900BF2859ECB700F99F0E /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A900BE2859ECB700F99F0E /* select.png */; };
+		34A900C12859EE8100F99F0E /* Tap to Select.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A900C02859EE8100F99F0E /* Tap to Select.png */; };
+		34EA316E285778C8004850E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA316D285778C8004850E3 /* AppDelegate.swift */; };
+		34EA3170285778C8004850E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA316F285778C8004850E3 /* SceneDelegate.swift */; };
+		34EA3172285778C8004850E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA3171285778C8004850E3 /* ViewController.swift */; };
+		34EA3175285778C8004850E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EA3173285778C8004850E3 /* Main.storyboard */; };
+		34EA3177285778CA004850E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EA3176285778CA004850E3 /* Assets.xcassets */; };
+		34EA317A285778CA004850E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EA3178285778CA004850E3 /* LaunchScreen.storyboard */; };
+		34EA318228577B8C004850E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34EA318128577B8C004850E3 /* GoogleService-Info.plist */; };
+		34FBCD6C2858C9E700D52BA5 /* instagram.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34FBCD6B2858C9E700D52BA5 /* instagram.jpeg */; };
+		34FBCD6E2858CA9F00D52BA5 /* instag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34FBCD6D2858CA9F00D52BA5 /* instag.jpeg */; };
+		34FBCD702858CB5600D52BA5 /* iPhone-12-Background-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34FBCD6F2858CB5600D52BA5 /* iPhone-12-Background-1.jpeg */; };
+		34FBCD722858CD2600D52BA5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FBCD712858CD2600D52BA5 /* logo.png */; };
+		4C868E48E3479C5BCA397EE4 /* Pods_InstaCloneFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8C3F3C03C814E88751823E /* Pods_InstaCloneFirebase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		343D4D19285A0096004285FA /* mona lisa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mona lisa.jpeg"; path = "../../mona lisa.jpeg"; sourceTree = "<group>"; };
+		343D4D1B285A0301004285FA /* tapselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tapselect.png; path = ../../tapselect.png; sourceTree = "<group>"; };
+		346C7B5B285B01C10071AD5F /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		346C7B5D285B3B780071AD5F /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = ../../../Downloads/heart.png; sourceTree = "<group>"; };
+		346C7B5F285B3CD40071AD5F /* 633918.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = 633918.webp; path = ../../../Downloads/633918.webp; sourceTree = "<group>"; };
+		34A745A6A31908E8420B4B9F /* Pods-InstaCloneFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneFirebase.release.xcconfig"; path = "Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		34A900AB2859C0B000F99F0E /* instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png"; path = "../../instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png"; sourceTree = "<group>"; };
+		34A900AD2859C7D500F99F0E /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		34A900AF2859C7E700F99F0E /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		34A900B12859C80500F99F0E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		34A900B32859DECD00F99F0E /* shooting-star-in-night-sky-iphone-12-pro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "shooting-star-in-night-sky-iphone-12-pro.jpeg"; path = "../../shooting-star-in-night-sky-iphone-12-pro.jpeg"; sourceTree = "<group>"; };
+		34A900B52859DF6200F99F0E /* galaxy-wallpaper.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "galaxy-wallpaper.jpeg"; path = "../../galaxy-wallpaper.jpeg"; sourceTree = "<group>"; };
+		34A900B72859E02000F99F0E /* 9b0ce4be26e366849900eb6cb0f024b6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9b0ce4be26e366849900eb6cb0f024b6.png; path = ../../9b0ce4be26e366849900eb6cb0f024b6.png; sourceTree = "<group>"; };
+		34A900B92859E07800F99F0E /* tumblr_p0v9jbMDUV1u93qk8o1_1280.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tumblr_p0v9jbMDUV1u93qk8o1_1280.jpeg; path = ../../tumblr_p0v9jbMDUV1u93qk8o1_1280.jpeg; sourceTree = "<group>"; };
+		34A900BB2859E0E500F99F0E /* 4k-iphone android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-u0pjf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4k-iphone android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-u0pjf.jpeg"; path = "../../4k-iphone android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-u0pjf.jpeg"; sourceTree = "<group>"; };
+		34A900BE2859ECB700F99F0E /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = ../../select.png; sourceTree = "<group>"; };
+		34A900C02859EE8100F99F0E /* Tap to Select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tap to Select.png"; path = "../../Tap to Select.png"; sourceTree = "<group>"; };
+		34EA316A285778C8004850E3 /* InstaCloneFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCloneFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EA316D285778C8004850E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34EA316F285778C8004850E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34EA3171285778C8004850E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34EA3174285778C8004850E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34EA3176285778CA004850E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34EA3179285778CA004850E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34EA317B285778CA004850E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EA318128577B8C004850E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34FBCD6B2858C9E700D52BA5 /* instagram.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = instagram.jpeg; path = ../../instagram.jpeg; sourceTree = "<group>"; };
+		34FBCD6D2858CA9F00D52BA5 /* instag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = instag.jpeg; path = ../../instag.jpeg; sourceTree = "<group>"; };
+		34FBCD6F2858CB5600D52BA5 /* iPhone-12-Background-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "iPhone-12-Background-1.jpeg"; path = "../../iPhone-12-Background-1.jpeg"; sourceTree = "<group>"; };
+		34FBCD712858CD2600D52BA5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../logo.png; sourceTree = "<group>"; };
+		C725E6C0996FAAA1B3A9CE63 /* Pods-InstaCloneFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneFirebase.debug.xcconfig"; path = "Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		EB8C3F3C03C814E88751823E /* Pods_InstaCloneFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCloneFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34EA3167285778C8004850E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C868E48E3479C5BCA397EE4 /* Pods_InstaCloneFirebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154C6EE28C65E152C3C0CBA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C725E6C0996FAAA1B3A9CE63 /* Pods-InstaCloneFirebase.debug.xcconfig */,
+				34A745A6A31908E8420B4B9F /* Pods-InstaCloneFirebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		34EA3161285778C8004850E3 = {
+			isa = PBXGroup;
+			children = (
+				34EA316C285778C8004850E3 /* InstaCloneFirebase */,
+				34EA316B285778C8004850E3 /* Products */,
+				154C6EE28C65E152C3C0CBA9 /* Pods */,
+				C05DC12B652DC7E05708CD70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34EA316B285778C8004850E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34EA316A285778C8004850E3 /* InstaCloneFirebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34EA316C285778C8004850E3 /* InstaCloneFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				34EA316D285778C8004850E3 /* AppDelegate.swift */,
+				34EA316F285778C8004850E3 /* SceneDelegate.swift */,
+				34EA3171285778C8004850E3 /* ViewController.swift */,
+				34A900AD2859C7D500F99F0E /* FeedViewController.swift */,
+				34A900AF2859C7E700F99F0E /* UploadViewController.swift */,
+				34A900B12859C80500F99F0E /* SettingsViewController.swift */,
+				346C7B5B285B01C10071AD5F /* FeedCell.swift */,
+				34FBCD6D2858CA9F00D52BA5 /* instag.jpeg */,
+				34FBCD6B2858C9E700D52BA5 /* instagram.jpeg */,
+				346C7B5D285B3B780071AD5F /* heart.png */,
+				343D4D1B285A0301004285FA /* tapselect.png */,
+				343D4D19285A0096004285FA /* mona lisa.jpeg */,
+				34A900BB2859E0E500F99F0E /* 4k-iphone android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-u0pjf.jpeg */,
+				34A900B92859E07800F99F0E /* tumblr_p0v9jbMDUV1u93qk8o1_1280.jpeg */,
+				34A900C02859EE8100F99F0E /* Tap to Select.png */,
+				346C7B5F285B3CD40071AD5F /* 633918.webp */,
+				34A900BE2859ECB700F99F0E /* select.png */,
+				34A900B32859DECD00F99F0E /* shooting-star-in-night-sky-iphone-12-pro.jpeg */,
+				34A900B72859E02000F99F0E /* 9b0ce4be26e366849900eb6cb0f024b6.png */,
+				34A900AB2859C0B000F99F0E /* instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png */,
+				34A900B52859DF6200F99F0E /* galaxy-wallpaper.jpeg */,
+				34FBCD6F2858CB5600D52BA5 /* iPhone-12-Background-1.jpeg */,
+				34FBCD712858CD2600D52BA5 /* logo.png */,
+				34EA3173285778C8004850E3 /* Main.storyboard */,
+				34EA3176285778CA004850E3 /* Assets.xcassets */,
+				34EA3178285778CA004850E3 /* LaunchScreen.storyboard */,
+				34EA317B285778CA004850E3 /* Info.plist */,
+				34EA318128577B8C004850E3 /* GoogleService-Info.plist */,
+			);
+			path = InstaCloneFirebase;
+			sourceTree = "<group>";
+		};
+		C05DC12B652DC7E05708CD70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C3F3C03C814E88751823E /* Pods_InstaCloneFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34EA3169285778C8004850E3 /* InstaCloneFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EA317E285778CA004850E3 /* Build configuration list for PBXNativeTarget "InstaCloneFirebase" */;
+			buildPhases = (
+				024A3BCFFDCFCF7C80A8DDBE /* [CP] Check Pods Manifest.lock */,
+				34EA3166285778C8004850E3 /* Sources */,
+				34EA3167285778C8004850E3 /* Frameworks */,
+				34EA3168285778C8004850E3 /* Resources */,
+				74260323327BB212774D3F20 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaCloneFirebase;
+			packageProductDependencies = (
+			);
+			productName = InstaCloneFirebase;
+			productReference = 34EA316A285778C8004850E3 /* InstaCloneFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34EA3162285778C8004850E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					34EA3169285778C8004850E3 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 34EA3165285778C8004850E3 /* Build configuration list for PBXProject "InstaCloneFirebase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34EA3161285778C8004850E3;
+			packageReferences = (
+			);
+			productRefGroup = 34EA316B285778C8004850E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34EA3169285778C8004850E3 /* InstaCloneFirebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34EA3168285778C8004850E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EA317A285778CA004850E3 /* LaunchScreen.storyboard in Resources */,
+				34A900B82859E02000F99F0E /* 9b0ce4be26e366849900eb6cb0f024b6.png in Resources */,
+				34FBCD702858CB5600D52BA5 /* iPhone-12-Background-1.jpeg in Resources */,
+				34FBCD6C2858C9E700D52BA5 /* instagram.jpeg in Resources */,
+				34EA318228577B8C004850E3 /* GoogleService-Info.plist in Resources */,
+				343D4D1C285A0301004285FA /* tapselect.png in Resources */,
+				34FBCD722858CD2600D52BA5 /* logo.png in Resources */,
+				34A900B62859DF6200F99F0E /* galaxy-wallpaper.jpeg in Resources */,
+				34EA3177285778CA004850E3 /* Assets.xcassets in Resources */,
+				34A900BA2859E07800F99F0E /* tumblr_p0v9jbMDUV1u93qk8o1_1280.jpeg in Resources */,
+				34A900BF2859ECB700F99F0E /* select.png in Resources */,
+				34EA3175285778C8004850E3 /* Main.storyboard in Resources */,
+				34A900BC2859E0E500F99F0E /* 4k-iphone android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-u0pjf.jpeg in Resources */,
+				34A900C12859EE8100F99F0E /* Tap to Select.png in Resources */,
+				34FBCD6E2858CA9F00D52BA5 /* instag.jpeg in Resources */,
+				34A900B42859DECD00F99F0E /* shooting-star-in-night-sky-iphone-12-pro.jpeg in Resources */,
+				346C7B5E285B3B780071AD5F /* heart.png in Resources */,
+				343D4D1A285A0096004285FA /* mona lisa.jpeg in Resources */,
+				34A900AC2859C0B000F99F0E /* instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		024A3BCFFDCFCF7C80A8DDBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaCloneFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74260323327BB212774D3F20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34EA3166285778C8004850E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346C7B5C285B01C10071AD5F /* FeedCell.swift in Sources */,
+				34EA3172285778C8004850E3 /* ViewController.swift in Sources */,
+				34A900B02859C7E700F99F0E /* UploadViewController.swift in Sources */,
+				34EA316E285778C8004850E3 /* AppDelegate.swift in Sources */,
+				34A900AE2859C7D500F99F0E /* FeedViewController.swift in Sources */,
+				34EA3170285778C8004850E3 /* SceneDelegate.swift in Sources */,
+				34A900B22859C80500F99F0E /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34EA3173285778C8004850E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34EA3174285778C8004850E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34EA3178285778CA004850E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34EA3179285778CA004850E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34EA317C285778CA004850E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34EA317D285778CA004850E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34EA317F285778CA004850E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C725E6C0996FAAA1B3A9CE63 /* Pods-InstaCloneFirebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47K76XV4MV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaCloneFirebase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = busraguler.InstaCloneFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34EA3180285778CA004850E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A745A6A31908E8420B4B9F /* Pods-InstaCloneFirebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47K76XV4MV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaCloneFirebase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = busraguler.InstaCloneFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34EA3165285778C8004850E3 /* Build configuration list for PBXProject "InstaCloneFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EA317C285778CA004850E3 /* Debug */,
+				34EA317D285778CA004850E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EA317E285778CA004850E3 /* Build configuration list for PBXNativeTarget "InstaCloneFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EA317F285778CA004850E3 /* Debug */,
+				34EA3180285778CA004850E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34EA3162285778C8004850E3 /* Project object */;
+}
